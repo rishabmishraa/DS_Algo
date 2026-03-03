@@ -5,6 +5,7 @@ int main() {
 
     // Variables and Data Types
 
+    // Defining variables of different data types
     int age = 25; // Integer variable 
     double height = 5.9; // Double variable 
     char grade = 'A'; // Character variable 
@@ -17,6 +18,9 @@ int main() {
     unsigned int unsignedVar = 50; // Unsigned integer variable
 
     long double longDoubleVar = 3.1415926535897932384626433832795; // Long double variable 
+
+    // if we declare a variable without initializing it, it will contain garbage value (undefined behavior)
+        int uninitializedVar; // This variable is declared but not initialized, it will contain a garbage value.
 
 
     cout << age << endl; // range -2,147,483,648 to 2,147,483,647
